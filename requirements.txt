@@ -1,0 +1,19 @@
+# AgentBeats Purple Agent Requirements (TimeSeriesScientist)
+# Python >= 3.11 required
+
+# A2A SDK for agent-to-agent communication
+a2a-sdk[http-server]==0.3.7
+
+# ASGI server
+uvicorn==0.30.1
+
+# Environment variable management
+python-dotenv==1.0.1
+
+# Data validation (used by A2A SDK)
+pydantic==2.7.1
+
+# TimeSeriesScientist LLM layer (LangChain stack)
+langchain-core==0.3.63
+langchain-openai==0.3.18
+openai==1.82.0

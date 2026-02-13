@@ -1,0 +1,42 @@
+# Documentation (exclude all markdown except README)
+*.md
+!README.md
+
+# Legacy deployment files
+env-var.sh
+archive/
+
+# Documentation directories
+docs/
+tests/
+
+# Git
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment and secrets
+.env
+.env.*
+
+# Virtual environments
+venv/
+.venv/
+*-venv/
+ENV/
+
+# IDE and OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Node (if any JS tooling present)
+node_modules/

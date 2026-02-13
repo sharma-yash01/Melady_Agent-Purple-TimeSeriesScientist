@@ -1,0 +1,16 @@
+name = "Melady_Agent-TS-TSci-Purple"
+description = "TimeSeriesScientist-based purple agent for Time Series benchmark"
+url = "http://localhost:9023"
+version = "1.0.0"
+defaultInputModes = ["text"]
+defaultOutputModes = ["text"]
+
+[capabilities]
+streaming = false
+
+[[skills]]
+id = "timeseries_forecasting"
+name = "Time Series Forecasting"
+description = "Performs time series forecasting and analysis using TimeSeriesScientist (LangChain) framework"
+tags = ["benchmark", "timeseries", "forecasting", "langchain", "tsci"]
+examples = []
